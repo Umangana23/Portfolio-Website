@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8fa9a01351.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav> 
+            <img src="images/logo.png" alt="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header"> Home </a></li>
+                <li><a href="#about"> About </a></li>
+                <li><a href="#services"> Services </a></li>
+                <li><a href="#portfolio"> Portfolio </a></li>
+                <li><a href="#contact"> Contact </a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p> Full Stack Developer</p>
+            <h1> Hi, I'm <span>Umangana</span><br> From India</h1>
+        </div>
+    </div>
+  </div>  
+  <!------------------------about----------------------- -->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/image_2.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me </h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium est vero, fugiat aliquid recusandae at iusto ex reprehenderit deserunt reiciendis labore explicabo ullam blanditiis, velit sit molestias modi, dicta harum?
+                Eaque omnis, incidunt id at qui voluptate quae optio rem, eos fugit itaque culpa. Laboriosam voluptates officiis, expedita adipisci voluptatibus error nam fugiat quo suscipit? Facilis numquam iure culpa cum!
+                Ipsum itaque impedit voluptatibus, placeat cupiditate obcaecati assumenda nostrum similique laborum delectus aut molestiae quaerat eligendi ullam odio sunt minima numquam aspernatur modi facere quos at neque ab voluptatem! Similique.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')"> Skills </p>
+                    <p class="tab-links" onclick="opentab('Experience')"> Experience </p>
+                    <p class="tab-links" onclick="opentab('Education')"> Education </p>
+                </div>
+                <div class="tab-content active-tab" id="Skills">
+                <ul> 
+                  <li><span> Full Stack Developer</span><br>Designing Webpages & Websites</li>
+                  <li> <span> Software Developer</span><br>Designing Modules & Applications</li>
+                  <li> <span> Software Tester</span><br> Test  Software & Finding Defects </li>  
+                  </ul>
+                </div>
+
+                <div class="tab-content" id="Experience">
+                    <ul> 
+                      <li><span> Nov(2022)-Jan(2023)</span><br> Internshaala Trainings </li>
+                      <li><span> Feb(2023)-Present</span><br> Internshaala Student Partner </li>
+                      </ul>
+                </div>
+
+                <div class="tab-content" id="Education">
+                    <ul> 
+                      <li><span> 2023-Present</span><br>Vellore Institute Of Technology<br> MCA </li>
+                      <li><span> 2020-2023</span><br>S.S. Jain Subodh PG Mahila Mahavidyalaya <br> BCA </li>
+                      <li> <span> 2020</span><br>Mahala Residential Public School <br> 12th</li>
+                      <li> <span> 2018 </span><br> Mahala Residential Public School <br> 10th </li>  
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ------------------------------Services------------------------------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services </h1>
+        <div class="services-list">
+           <div>
+            <i class="fa-solid fa-code"></i>
+            <h2> Full Stack Developer </h2>
+            <p>Designing Webpages & Websites</p>
+            <a href="#"> Learn more </a>
+           </div> 
+           <div>
+            <i class="fa-brands fa-connectdevelop"></i>
+            <h2> Software Developer </h2>
+            <p>Designing Modules & Applications</p>
+            <a href="#"> Learn more </a>
+           </div> 
+           <div>
+            <i class="fa-solid fa-cubes"></i>
+            <h2> Software Tester</h2>
+            <p>Test  Software & Finding Defects</p>
+            <a href="#"> Learn more </a>
+           </div> 
+        </div>
+    </div>
+ </div>
+
+ <!-- -------------Portfolio------------------ -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3> Travel Hub Website </h3>
+                    <p> Led development of a full-stack travel hub website, optimizing booking processes and enhancing user experience.<br> Collaborated cross-functionally to curate destination guides, fostering community engagement.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                <h3> Portfolio Website </h3>
+                <p>Created and designed a dynamic portfolio website showcasing diverse projects and skills.<br>                   Implemented intuitive navigation, interactive elements, and a blog section to engage visitors effectively. </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                <h3> Event Management System </h3>
+                <p>Developed and optimized an event management system, streamlining coordination and communication processes.<br>Implemented features for seamless registration, scheduling, and attendee management.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> See more </a>
+    </div>
+ </div>
+
+ <!-- ---------------contact-------------------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> umanganakhuteta04@gmail.com </p>
+                    <p> <i class="fa-solid fa-phone"></i>8890370421</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/umangana-khuteta-1933b8260"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Resume.pdf" download class="btn btn2"> Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit </button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+     </div>
+    <div class="copyright">
+       <p> Copyright <i class="fa-solid fa-copyright"></i> Umangana. Made with <i class="fa-solid fa-heart"></i></p> 
+    </div>
+    </div>
+
+ <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontent=document.getElementsByClassName("tab-content");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontents of tabcontent){
+            tabcontents.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+  <script>
+    var sidemen=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemen.style.right="0";
+    }
+
+    function closemenu(){
+        sidemen.style.right="-200px";
+    }
+  </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz5sTmgjAV3VuQxA3SJ0Hlr9DRoDK1Mi0wPv6FBwTBTEehQQE0Ys-oLjSbPR-LGhkqdZg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
